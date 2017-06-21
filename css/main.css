@@ -1,0 +1,73 @@
+html, .bg-medlateblue {
+  background-color: #6060f0;
+}
+
+.medlateblue {color:#6060f0}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+
+/* button styles ***/
+
+button {
+  font-size: 18px;
+  font-weight: bold;
+  color:#6060f0;
+  letter-spacing: 2px;
+  -webkit-border-radius: 2;
+  -moz-border-radius: 2;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #6060f0;
+  width: 250px;
+  height: 60px;
+  background: #fff;
+  padding: 15px 20px 15px 20px;
+  text-decoration: none;
+}
+
+button:hover {
+  color:#fff;
+  border-style: solid;
+  border-color: #6060f0;
+  background: #6060f0;
+  text-decoration: none;
+}
+
+/* mailchimp ***/
+
+#mc-embedded {
+	background: #f8f8f8;
+	color: #6060f0;
+	padding: 20px 15px;
+}
+	#mc-embedded input {
+		border: medium none;
+    color: gray;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 15px 10px;
+    width: 300px;
+		border-radius: 5px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+	}
+		#mc-embedded input.email { background: #fff }
+		#mc-embedded input.name { background: #fff}
+		#mc-embedded input[type="submit"] {
+			background: #6060f0;
+			color: #fff;
+			cursor: pointer;
+			font-size: 13px;
+      font-weight: bold;
+      letter-spacing: 2px;
+			max-width: 175px;
+      margin: 5px 0;
+			padding: 15px 0;
+		}
+		#mc-embedded input[type="submit"]:hover {
+      background: #4b4bd1;
+    }
